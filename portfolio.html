@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <title>Vertice</title>
     <link rel="stylesheet" href="styles/portfolio.css">
-   
 </head>
 
 <body>
 
     <header>
-        <a href="index.html"> <img style="width: 130px" src="img/Logo.png" alt="logo vertice."></a>
+
         <nav>
+            <a href="index.html"> <img style="width: 130px" src="img/Logo.png" alt="logo vertice."></a>
             <ul>
                 <li> <a href="nosotros.html">Nosotros</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
@@ -23,13 +23,74 @@
     </header>
 
     <main>
-
-
+        <div id="gallery-track">
+            <div class="card" data-index="0">
+                <img src="img/gucci/gucci-bg.jpg" alt="Gucci">
+                <h3>Gucci</h3>
+            </div>
+            <div class="card" data-index="1">
+                <img src="img/activia/activia-bg.jpg" alt="Activia">
+                <h3>Activia</h3>
+            </div>
+            <div class="card" data-index="2">
+                <img src="img/saeco/saeco-bg.jpg" alt="Saeco">
+                <h3>Saeco</h3>
+            </div>
+            <div class="card" data-index="3">
+                <img src="img/rituals/rituals-bg.jpg" alt="Rituals">
+                <h3>Rituals</h3>
+            </div>
+        </div>
     </main>
+
+    <!-- WORK PAGE -->
+    <div id="work-page">
+        <div id="work-progress"><div id="work-progress-bar"></div></div>
+
+        <div id="work-content">
+            <div class="work-hero">
+                <img id="work-hero-img" src="" alt="">
+                <div class="work-hero-overlay"></div>
+                <div class="work-hero-title" id="work-title"></div>
+                <div class="work-scroll-hint" id="work-scroll-hint">
+                    <span>Scroll</span>
+                    <div class="work-scroll-line"></div>
+                </div>
+            </div>
+
+            <div class="work-info">
+                <div>
+                    <div class="work-label">Rol</div>
+                    <div class="work-role" id="work-role"></div>
+                </div>
+                <div>
+                    <div class="work-label">Descripción</div>
+                    <div class="work-description" id="work-desc"></div>
+                </div>
+            </div>
+
+            <div class="work-images">
+                <div class="work-img-wrap" id="work-img-1"><img src="" alt=""></div>
+                <div class="work-img-wrap" id="work-img-2"><img src="" alt=""></div>
+            </div>
+
+            <div style="height: 150px"></div>
+        </div>
+
+        <div id="work-back">
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none">
+                <path d="M5 1L1 5L5 9" stroke="currentColor" stroke-width="1"/>
+                <line x1="1" y1="5" x2="16" y2="5" stroke="currentColor" stroke-width="1"/>
+            </svg>
+            Volver
+        </div>
+    </div>
 
     <footer>
         <p>© 2026 Vertice. All Rights Reserved</p>
     </footer>
+
+    <script src="scripts/portfolio.js"></script>
 
 </body>
 
