@@ -8,6 +8,7 @@
   font-family: "s";
   src: url("/font/s.woff2");
 }
+
 body {
   font-family: s;
   background-color: #f2f5e6;
@@ -167,20 +168,20 @@ hr.dashed {
   text-align: center;
 }
 
-.preguntas{
+.preguntas {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.texto-preguntas{
+.texto-preguntas {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 600px;
-  margin: 40px 0px
+  margin: 40px 0px;
 }
 
 .preguntas h4 {
@@ -214,6 +215,130 @@ hr.dashed {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "s";
+  color: #3f4b0e;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin: bottom 10px;
+  margin-top: 25px;
+}
+
+#servicios {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#servicios img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto.superpuesto {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "s";
+  color: #f2f5e6;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.listado li {
+  font-family: "s";
+  color: #3f4b0e;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cuerpo-packs {
+  width: 100%;
+  display: block;
+  padding-bottom: 50px;
+  background-color: #f2f5e6;
+}
+
+.contenido-packs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.tarjeta-packs {
+  background-color: #f2f5e6;
+  color: #3f4b0e;
+  padding: 30px;
+  width: 250px;
+  min-height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-packs h3 {
+  font-family: "s";
+  font-size: 20px;
+  margin: bottom 10px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.tarjeta-packs p {
+  font-family: "s";
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+div h4 {
+  font-family: "s";
+  color: #f2f5e6;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: bottom 10px;
+  margin-top: 25px;
+  padding: 30px;
+  background-color: #3f4b0e;
+}
+
+div h3 {
+  font-family: "s";
+  color: #3f4b0e;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: bottom 10px;
+  margin-top: 25px;
+}
+
+div p {
   font-family: "s";
   color: #3f4b0e;
   text-decoration: none;
