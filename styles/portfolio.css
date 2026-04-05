@@ -8,12 +8,12 @@
   font-family: "s";
   src: url("/font/s.woff2");
 }
+
 body {
   font-family: s;
   background-color: #f2f5e6;
   display: block;
   justify-content: center;
-  overflow: hidden;
   height: 100vh;
 }
 
@@ -21,22 +21,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  transition:
-    opacity 0.3s ease,
-    transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-header.hide-up {
-  transform: translateY(-100%);
-  opacity: 0;
+  z-index: 3;
+  position: relative;
 }
 
 nav {
   background-color: #3f4b0e;
-  width: 1070px;
+  width: 100%;
   height: 125px;
   display: flex;
   align-items: center;
@@ -44,13 +35,22 @@ nav {
   border-radius: 0px 0px 10px 10px;
 }
 
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f5e6;
+  text-decoration: none;
+}
+
 nav img {
-  padding: 20px;
+  padding: 30px;
+  color: #f2f5e6;
 }
 
 nav ul {
   display: flex;
-  width: 80%;
+  width: 40%;
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
@@ -75,7 +75,7 @@ main {
   height: 100%;
   display: flex;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
   transition: opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
