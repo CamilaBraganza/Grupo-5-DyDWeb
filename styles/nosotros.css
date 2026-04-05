@@ -1,9 +1,9 @@
-* {
+*  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 @font-face {
   font-family: "s";
   src: url("/font/s.woff2");
@@ -14,15 +14,45 @@ body {
   display: block;
   justify-content: center;
   height: 100vh;
+  margin: 0;
 }
-
+ 
 header {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-
+ 
+#nosotros{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+#nosotros img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+ 
+.texto.superpuesto {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "s";
+  color: #f2f5e6;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+ 
+ 
 nav {
   background-color: #3f4b0e;
   width: 1070px;
@@ -32,11 +62,11 @@ nav {
   justify-content: space-around;
   border-radius: 0px 0px 10px 10px;
 }
-
+ 
 nav img {
   padding: 20px;
 }
-
+ 
 nav ul {
   display: flex;
   width: 80%;
@@ -48,27 +78,98 @@ nav ul {
   text-decoration: none;
   gap: 20px;
 }
-
+ 
 ul li a {
   color: #f2f5e6;
   text-decoration: none;
 }
-
-
+ 
+ 
 main{
-    height: 80vh;
+    margin-bottom: 80px;
 }
-
-
+ 
+ 
 footer{
     background-color: #3f4b0e;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 }
-
+ 
 footer p{
     color: #f2f5e6;
     font-size: small;
+}
+ 
+.quick-services {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #3f4b0e; 
+    color: #f2f5e6;
+}
+ 
+.quick-services h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+ 
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.service-card {
+    background-color: #dfe6c8;
+    color: #3f4b0e;
+    padding: 30px;
+    width: 250px;
+    min-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+ 
+.service-card h3 {
+    margin-bottom: 15px;
+}
+ 
+.hero {
+    max-width: 800px;
+    text-align: center;
+    background-color: #f2f5e6; 
+    color: #3f4b0e;
+    margin: 80px auto;
+    padding: 0 20px;
+    font-size: larger;
+}
+ 
+.quienessomos {
+    margin-bottom: 50px;
+    font-family: "s";
+    font-size: larger
+ 
+ 
+}
+ 
+.proposito{
+    font-family: "s";
+    margin: 80px auto;
+    font-size: larger;
+}
+ 
+.por_que_elegirnos{
+    font-family: "s";
+    margin: 80px auto;
+    font-size: larger;
+}
+ 
+.p{
+  font-size: 25x;
+  line-height: 1.6;
+  color: #3f4b0e;
+ 
 }
