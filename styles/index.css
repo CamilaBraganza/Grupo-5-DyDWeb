@@ -28,7 +28,7 @@ nav {
   height: 125px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav a {
@@ -54,6 +54,7 @@ nav ul {
   margin: 0;
   text-decoration: none;
   gap: 20px;
+  text-shadow: 10px 5px 5px rgb(27, 46, 16);
 }
 
 ul li a {
@@ -92,6 +93,7 @@ footer p {
   font-size: 32px;
   max-width: 600px;
   color: #3f4b0e;
+  
 }
 
 .cta {
@@ -173,6 +175,7 @@ footer p {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  
 }
 
 .service-card {
@@ -181,7 +184,7 @@ footer p {
   padding: 30px;
   width: 300px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px rgb(27, 46, 16);
 }
 
 .service-card h3 {

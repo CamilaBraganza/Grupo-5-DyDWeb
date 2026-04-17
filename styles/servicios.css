@@ -29,7 +29,7 @@ nav {
   height: 125px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav a {
@@ -55,6 +55,7 @@ nav ul {
   margin: 0;
   text-decoration: none;
   gap: 20px;
+  text-shadow: 10px 5px 5px rgb(27, 46, 16);
 }
 
 ul li a {
@@ -89,8 +90,8 @@ footer p {
 
 .texto.superpuesto {
   position: absolute;
-  top: 59%;
-  left: 44%;
+  top: 60%;
+  left: 40%;
   font-family: "s";
   color: #f2f5e6;
   font-size: 35px;
@@ -152,7 +153,7 @@ div ul {
 }
 
 hr.dashed {
-  border-top: 3px dashed #91a054;
+  border-top: 3px linen #91a054;
 }
 
 .tarjeta-packs h3 {
