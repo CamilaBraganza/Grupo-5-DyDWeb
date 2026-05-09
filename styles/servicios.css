@@ -187,8 +187,9 @@ hr.dashed {
   align-items: center;
   justify-content: center;
   background-color: #3f4b0e;
-  padding: 90px 60px;
+  padding: 90px 60px 155px 60px;
   color: #f2f5e6;
+  margin-bottom: 55px;
 }
 
 .texto-preguntas {
@@ -612,5 +613,9 @@ img#servicios {
   .pregunta-card p {
     font-size: 16px;
   }
+}
+
+main {
+  margin-bottom: 50px;
 }
 
