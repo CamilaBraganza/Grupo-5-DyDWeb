@@ -29,7 +29,8 @@ body {
 .texto.superpuesto {
   position: absolute;
   top: 87%;
-  left: 35%;
+  left: 25%;
+  text-transform: uppercase;
   transform: translate(-50%, -50%);
   font-family: "s";
   color: #f2f5e6;
@@ -736,3 +737,4 @@ img#nosotros {
   border-color: #3f4b0e;
   color: #f2f5e6;
 }
+
