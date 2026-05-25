@@ -743,3 +743,22 @@ main {
   width: 100%;
 }
 }
+
+
+
+.boton-info {
+  display: inline-block;
+  margin-top: 22px;
+  background-color: #3f4b0e;
+  color: #f2f5e6;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.boton-info:hover {
+  background-color: #2b3508;
+  transform: translateY(-3px);
+}
